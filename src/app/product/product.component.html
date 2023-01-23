@@ -1,0 +1,18 @@
+<p>product works!</p>
+<h1>Both Example Works Similar</h1>
+
+
+<!-- Best Practice - SEO frendly -->
+<h2>Best Practice - SEO frendly</h2>
+<a routerLink="{{seoFrendlyUrl}}">
+    <img src="../../assets/img/dummy-user.jpg">
+    Go to Product Detail
+</a> &nbsp;
+
+
+<!-- Bad Practice - Not SEO frendly -->
+<h2>Bad Practice - Not SEO frendly</h2>
+<a style="cursor: pointer;" (click)="goToProductDetail()">
+    <img src="../../assets/img/dummy-user.jpg">
+    Go to Product Detail
+</a> &nbsp;
